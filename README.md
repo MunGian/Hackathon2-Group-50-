@@ -32,13 +32,31 @@ Are you ready to embark on this epic adventure? Brace yourself for the ultimate 
 
 ## How to Play
 - The game is in text based, meaning that the player will input keywords into the panel.
-- 
+- Once enter the game, the user can press enter to allow the story to continue.
+- When a decision is awaiting the player's response, the player can type in the keyword to progress with the story.
+-player have the choice to enter (yes/no) or (1,2,3) depending on the situation. 
+-Battle mode:
+	-Both player and the enemy has their respective health and the objective of the player is to kill the enemy's health down to 0.
+	-At the player's turn, the player can choose any of their weapon to deal damage to the enemy by typing out the weapon that is displayed out.
+	-If the player hp has been down to 0, the game is over, and will return back to the save state, which is the start of the chapter the game is over at.
+
 
 ## Object-Oriented Concepts
-Describe how you used object-oriented concepts in the development of your game. Highlight how classes, inheritance, encapsulation, and polymorphism were utilized to structure and organize your code.
+In our game, a few classes were used to organise the object used inside the game. Our game is divided into 4 classes, health, room, weapon and game.
+-The game class is the main menu of the game. Everytime the player decide to stop playing in between chapters, the main menu will be shown again.
+-The game class has the main page function, and start function to initialize the game.
+-The health class is the health aspect of both player and enemy during battle mode.
+-bosstakedamage() is where the player used a weapon on the boss, and will display health decrease information.
+-playertakedamage is also the same, where player take damage from the boss. 
+-Weaponlist class is the linked 
+
 
 ## Data Structures (Linked Lists)
-Explain how linked lists, stacks, or queues were used in your game. Describe the purpose they serve and how they contribute to the gameplay mechanics or overall functionality.
+The most important concept of the game is the usage of linked list, which is weaponlist that is derieved from linked list in the game. 
+	-The inventory uses linked list. Everytime the player picks up an item, that is either stone or weapon, it will append into the linked list.
+	-When the player are allowed to choose the weapon from their inventory, the system will display out the list of weapon before the player can choose.
+	- searchweapon is used for when the player choose the weapon to use at the enemy, it will search weapon from the list to make sure the weapon is inside the inventory, so that it can be used onto the enemy.
+	- Item will be deleted from the inventory, hence the deletenode function is used here.
 
 ## Screenshots
 Include screenshots or images showcasing the visuals and gameplay of your game.
