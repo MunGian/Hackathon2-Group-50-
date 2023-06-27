@@ -28,6 +28,8 @@ Are you ready to embark on this epic adventure? Brace yourself for the ultimate 
   - Strikecritical hits, where both the player and the boss can deliver powerful strikes that deal double the damage to their opponent.
   - This battle system adds an element of unpredictability and strategy to the battles, as the outcomes of dodging, critical hits, and normal hits are determined by chance.
   - The chances are as follows: 20% for dodging, 60% for normal hits, and 20% for critical hits.
+- Different actions and choices can lead to various storylines and outcomes.
+	- Additionally, performing specific actions within the storyline may unveil hidden storylines.
 
 ## How to Play
 - The game is in text based, meaning that the player will input keywords into the panel.
