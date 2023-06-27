@@ -31,7 +31,8 @@ Are you ready to embark on this epic adventure? Brace yourself for the ultimate 
 - Progressive difficulty, with bosses becoming more powerful and dealing higher damage as the story unfolds.
 
 ## How to Play
-Explain the rules and controls of the game, including any keyboard or mouse inputs required. Provide a step-by-step guide on how to start and play the game.
+- The game is in text based, meaning that the player will input keywords into the panel.
+- 
 
 ## Object-Oriented Concepts
 Describe how you used object-oriented concepts in the development of your game. Highlight how classes, inheritance, encapsulation, and polymorphism were utilized to structure and organize your code.
