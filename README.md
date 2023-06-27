@@ -15,8 +15,8 @@ Are you ready to embark on this epic adventure? Brace yourself for the ultimate 
 
 ## Game Features
 - Single player gameplay, providing an immersive and personal gaming experience.
-- Immersive storytelling that keeps player engaged throughout their quest for the Infinity Stones.
-- Engaging storyline divided into 5 chapters, each centered around collecting an Infinity Stone and discovering interesting items.
+- Immersive storytelling that keeps player engaged throughout their quest for the Mystic Stones.
+- Engaging storyline divided into 5 chapters, each centered around collecting Mystic Stones and discovering interesting items.
 - Save and load function to resume gameplay at any chapter and keep track of progress.
 - Progressive difficulty, intense boss battles against 3 powerful adversaries who becoming more powerful and dealing higher damage as the story unfolds.
 - Wide selection of weapons, each with different damage capabilities, offering strategic choices for players.
@@ -28,7 +28,6 @@ Are you ready to embark on this epic adventure? Brace yourself for the ultimate 
   - Strikecritical hits, where both the player and the boss can deliver powerful strikes that deal double the damage to their opponent.
   - This battle system adds an element of unpredictability and strategy to the battles, as the outcomes of dodging, critical hits, and normal hits are determined by chance.
   - The chances are as follows: 20% for dodging, 60% for normal hits, and 20% for critical hits.
-- Progressive difficulty, with bosses becoming more powerful and dealing higher damage as the story unfolds.
 
 ## How to Play
 - The game is in text based, meaning that the player will input keywords into the panel.
