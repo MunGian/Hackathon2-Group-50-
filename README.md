@@ -1,7 +1,7 @@
 # Hackathon2-Group-50-
 
 ## Game Description
-"Welcome to 'Infinity Conquest: Rise of the Stones,' an epic text-based adventure where you embark on a thrilling journey to collect the legendary Infinity Stones and engage in fierce battles with mighty bosses that threaten the very fabric of existence.
+"Welcome to 'Infinity Conquest: Rise of the Stones,' an epic text-based adventure where you embark on a thrilling journey to collect the legendary Mystic Stones and engage in fierce battles with mighty bosses that threaten the very fabric of existence.
 
 As the chosen hero, you find yourself at the center of a gripping storyline, filled with danger and discovery. The fate of the universe hangs in the balance as you set out on a quest to harness the unimaginable power of the Infinity Stones.
 
