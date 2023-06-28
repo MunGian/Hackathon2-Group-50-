@@ -20,6 +20,7 @@ Are you ready to embark on this epic adventure? Brace yourself for the ultimate 
 - Save and load function to resume gameplay at any chapter and keep track of progress.
 - Progressive difficulty, intense boss battles against 3 powerful adversaries who becoming more powerful and dealing higher damage as the story unfolds.
 - Wide selection of weapons, each with different damage capabilities, offering strategic choices for players.
+- Battle system includes a health system, which tracks the health of both the player and the boss during the battle.
 - Battle system incorporates simple graphic animations for the boss and weapon effects.
 - Battle system based on probability, where outcomes such as dodging, normal hits, and critical hits are determined by chance.
 - Turn-based combat where the player and the boss take alternating turns to attack.
