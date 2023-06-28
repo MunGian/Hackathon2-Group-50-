@@ -146,27 +146,39 @@ In our code, we have implemented a linked list data structure to manage the list
 
 Below is the methods on the implementation of linked list data structure in our code:
 
--Linked List Structure (similar to basic Linked List, but there is some modifications to suit our game)
+- Linked List Structure (similar to basic Linked List, but there is some modifications to suit our game)
+
 	- Within the WeaponList class, we define a private nested structure called WeaponNode, which represents a single node in the linked list. Each node contains a string variable for the weapon name (weapon) and a pointer to the next node (next).
 
 	- The WeaponList class also has a member variable head, which serves as the head (or starting point) of the linked list. This pointer points to the first node in the list.
+   
+	- Appending Weapons:
+		- The appendWeapon() function is used to add weapons to the linked list. When a weapon is appended, a new node is created dynamically, and the weapon name is stored in the node's weapon variable. Then, the new node is then linked to the existing list by updating the next pointer of the last node to point to the new node.
+   
+	- Delete Used Items or Weapons in some scenarios:
+		- The deleteWeapon() function is used to remove a specific weapon or item from the linked list. It allows for the dynamic deletion of weapons that have been used or are no longer needed in certain scenarios.
 
-	- Appending Weapons: The appendWeapon() function is used to add weapons to the linked list. When a weapon is appended, a new node is created dynamically, and the weapon name is stored in the node's weapon variable. Then, the new node is then linked to the existing list by updating the next pointer of the last node to point to the new node.
+	- Traversing the List:
+		- The displayWeapons() function is used to traverse the linked list and display the weapons. It starts from the head node and iterates through each node by following the next pointers until it reaches the end of the list.
 
-	- Delete Used Items or Weapons in some scenarios: The deleteWeapon() function is used to remove a specific weapon or item from the linked list. It allows for the dynamic deletion of weapons that have been used or are no longer needed in certain scenarios.
+	- Search for Weapon or Item:
+		- The searchWeapon() function is used to traverse through the nodes and search for a specific weapon or item. It starts from the head node and iterates through each node using the next pointers until a match is found or the end of the list is reached. This searching mechanism allows the player to check if a desired weapon or item exists in the linked list before performing certain actions.
 
-	- Traversing the List: The displayWeapons() function is used to traverse the linked list and display the weapons. It starts from the head node and iterates through each node by following the next pointers until it reaches the end of the list.
-
-	- Search for Weapon or Item: The searchWeapon() function is used to traverse through the nodes and search for a specific weapon or item. It starts from the head node and iterates through each node using the next pointers until a match is found or the end of the list is reached. This searching mechanism allows the player to check if a desired weapon or item exists in the linked list before performing certain actions.
-
-	- Load Previous Saved Progress: The saveWeapons() function is used in saving the player's previousprogress, including the weapons and items they have obtained. It ensures that the previously saved weapons are loaded and added back into the linked list, allowing the player to continue their gameplay from where they left off. By utilizing the linked list data structure, the saveWeapons function can efficiently rebuild the collection of weapons and items based on the saved data.
+	- Load Previous Saved Progress:
+		- The saveWeapons() function is used in saving the player's previousprogress, including the weapons and items they have obtained. It ensures that the previously saved weapons are loaded and added back into the linked list, allowing the player to continue their gameplay from where they left off. By utilizing the linked list data structure, the saveWeapons function can efficiently rebuild the collection of weapons and items based on the saved data.
 
 
 ## Screenshots
 Include screenshots or images showcasing the visuals and gameplay of your game.
+<img width="671" alt="image" src="https://github.com/MunGian/Hackathon2-Group-50-/assets/121543760/3efd8c2e-1a78-49be-947a-e84a101d8691">
+<img width="1076" alt="image" src="https://github.com/MunGian/Hackathon2-Group-50-/assets/121543760/0d7c10e6-aed5-4ca1-b9fd-aea4e8252f67">
+<img width="1073" alt="image" src="https://github.com/MunGian/Hackathon2-Group-50-/assets/121543760/bbedb7e2-1858-46cc-971c-23b88c78e4ff">
+
+
 
 ## Game Demo Video
-Game Demo Video [CPT113 Hackathon 2 Group 50](https://www.google.com/)
+Game Demo Video [CPT113 Hackathon 2 Group 50](https://drive.google.com/file/d/1skiNcixn87_Hm97hzH65q1uY2YRLNz4Y/view)
+
 
 ## Source Code
 Provide a link to your source code files, preferably in a public GitHub repository. Make sure to include only the relevant .h and .cpp files, excluding any project-specific files from your IDE.
