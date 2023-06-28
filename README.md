@@ -43,7 +43,7 @@ Your journey will test your courage, wit, and strategic thinking. As you progres
 - Battle mode:
 	- Both player and the enemy has their respective health and the objective of the player is to kill the enemy's health down to 0.
 	- At the player's turn, the player can choose any of their weapon to deal damage to the enemy by typing out the weapon that is displayed out.
-	- If the player hp has been down to 0, the game is over, and will return back to the save state, which is the start of the chapter the game is over at.
+	- If the player hp has been down to 0, the game is over, the player can choose to attempt the boss again, or back to main page.
 
 
 ## Object-Oriented Concepts
