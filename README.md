@@ -167,21 +167,6 @@ Below is the methods on the implementation of linked list data structure in our 
 	- Load Previous Saved Progress:
 		- The saveWeapons() function is used in saving the player's previousprogress, including the weapons and items they have obtained. It ensures that the previously saved weapons are loaded and added back into the linked list, allowing the player to continue their gameplay from where they left off. By utilizing the linked list data structure, the saveWeapons function can efficiently rebuild the collection of weapons and items based on the saved data.
 
-
-## Screenshots
-Include screenshots or images showcasing the visuals and gameplay of your game.
-<img width="1078" alt="image" src="https://github.com/MunGian/Hackathon2-Group-50-/assets/121543760/ad01cdc6-0e44-46e0-94b2-d448dbe99795">
-<img width="1076" alt="image" src="https://github.com/MunGian/Hackathon2-Group-50-/assets/121543760/23f1486c-0cf1-4ddf-b655-b0c5c6fda884">
-<img width="1080" alt="image" src="https://github.com/MunGian/Hackathon2-Group-50-/assets/121543760/6f0234e6-4972-479b-99da-22f69adafbcc">
-<img width="1077" alt="image" src="https://github.com/MunGian/Hackathon2-Group-50-/assets/121543760/fe769e59-5da0-49f5-87f1-d22008dd068c">
-<img width="1076" alt="image" src="https://github.com/MunGian/Hackathon2-Group-50-/assets/121543760/0d7c10e6-aed5-4ca1-b9fd-aea4e8252f67">
-<img width="1076" alt="image" src="https://github.com/MunGian/Hackathon2-Group-50-/assets/121543760/7db2c1db-353e-4024-8599-960f23318e6c">
-<img width="1073" alt="image" src="https://github.com/MunGian/Hackathon2-Group-50-/assets/121543760/bbedb7e2-1858-46cc-971c-23b88c78e4ff">
-<img width="1079" alt="image" src="https://github.com/MunGian/Hackathon2-Group-50-/assets/121543760/73badd3b-83a4-458a-89e5-4afcc3032f80">
-
 ## Game Demo Video
 Game Demo Video [CPT113 Hackathon 2 Group 50](https://drive.google.com/file/d/1skiNcixn87_Hm97hzH65q1uY2YRLNz4Y/view)
-
-## Source Code
-Provide a link to your source code files, preferably in a public GitHub repository. Make sure to include only the relevant .h and .cpp files, excluding any project-specific files from your IDE.
 
