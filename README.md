@@ -101,7 +101,7 @@ In our game, a few classes were used to organise the object used inside the game
 3. Encapsulation:
 	-  No public member variable is declared, the data is encapsulated within a class and cannot be accessed or modified directly from outside the class. This enforces the concept of data hiding and prevent from unintentionally modifying the data.
 	 - Instead, we declare private members variables, they are only accessible within the class, preventing direct manipulation from external code. This ensures that the data remains encapsulated within the class, and external code can only interact with it through the defined public methods.
-	- The public methods within each class, such as appendWeapon, searchWeapon, and displayWeapons in the WeaponList class, encapsulate the operations that can be performed on the class's data. They provide a controlled interface for interacting with the weapons list, ensuring that all operations are performed through the defined methods rather than directly accessing the internal data.
+	- The public methods within each class, such as appendWeapon(), searchWeapon(), and displayWeapons() in the WeaponList class, encapsulate the operations that can be performed on the class's data. They provide a controlled interface for interacting with the weapons list, ensuring that all operations are performed through the defined methods rather than directly accessing the internal data.
 
 4. Composition:
    	- Game Class:
@@ -142,11 +142,25 @@ In our game, a few classes were used to organise the object used inside the game
 	- Methods like MainPage(), EnterRoom(), GameDeails() provide abstaction for initializing and understanding the game.
 
 ## Data Structures (Linked Lists)
-The most important concept of the game is the usage of linked list, which is weaponlist that is derieved from linked list in the game. 
-- The inventory uses linked list. Everytime the player picks up an item, that is either stone or weapon, it will append into the linked list.
-- When the player are allowed to choose the weapon from their inventory, the system will display out the list of weapon before the player can choose.
-- searchweapon is used for when the player choose the weapon to use at the enemy, it will search weapon from the list to make sure the weapon is inside the inventory, so that it can be used onto the enemy.
-- Item will be deleted from the inventory, hence the deletenode function is used here.
+In our code, we have implemented a linked list data structure to manage the list of weapons in the WeaponList class, which plays a core role in our game. Without it, our program cannot proceed accordingly.
+
+Below is the methods on the implementation of linked list data structure in our code:
+
+-Linked List Structure (similar to basic Linked List, but there is some modifications to suit our game)
+	- Within the WeaponList class, we define a private nested structure called WeaponNode, which represents a single node in the linked list. Each node contains a string variable for the weapon name (weapon) and a pointer to the next node (next).
+
+	- The WeaponList class also has a member variable head, which serves as the head (or starting point) of the linked list. This pointer points to the first node in the list.
+
+	- Appending Weapons: The appendWeapon() function is used to add weapons to the linked list. When a weapon is appended, a new node is created dynamically, and the weapon name is stored in the node's weapon variable. Then, the new node is then linked to the existing list by updating the next pointer of the last node to point to the new node.
+
+	- Delete Used Items or Weapons in some scenarios: The deleteWeapon() function is used to remove a specific weapon or item from the linked list. It allows for the dynamic deletion of weapons that have been used or are no longer needed in certain scenarios.
+
+	- Traversing the List: The displayWeapons() function is used to traverse the linked list and display the weapons. It starts from the head node and iterates through each node by following the next pointers until it reaches the end of the list.
+
+	- Search for Weapon or Item: The searchWeapon() function is used to traverse through the nodes and search for a specific weapon or item. It starts from the head node and iterates through each node using the next pointers until a match is found or the end of the list is reached. This searching mechanism allows the player to check if a desired weapon or item exists in the linked list before performing certain actions.
+
+	- Load Previous Saved Progress: The saveWeapons() function is used in saving the player's previousprogress, including the weapons and items they have obtained. It ensures that the previously saved weapons are loaded and added back into the linked list, allowing the player to continue their gameplay from where they left off. By utilizing the linked list data structure, the saveWeapons function can efficiently rebuild the collection of weapons and items based on the saved data.
+
 
 ## Screenshots
 Include screenshots or images showcasing the visuals and gameplay of your game.
