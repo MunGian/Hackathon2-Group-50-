@@ -153,7 +153,7 @@ Below is the methods on the implementation of linked list data structure in our 
 
 	- Within the WeaponList class, we define a private nested structure called WeaponNode, which represents a single node in the linked list. Each node contains a string variable for the weapon name (weapon) and a pointer to the next node (next).
 
-	- The WeaponList class also has a member variable head, which serves as the head (or starting point) of the linked list. This pointer points to the first node in the list.
+	- The WeaponList class also has a private member variable head, which serves as the head (or starting point) of the linked list. This pointer points to the first node in the list.
    
 	- Appending Weapons:
 		- The appendWeapon() function is used to add weapons to the linked list. When a weapon is appended, a new node is created dynamically, and the weapon name is stored in the node's weapon variable. Then, the new node is then linked to the existing list by updating the next pointer of the last node to point to the new node.
@@ -168,5 +168,5 @@ Below is the methods on the implementation of linked list data structure in our 
 		- The searchWeapon() function is used to traverse through the nodes and search for a specific weapon or item. It starts from the head node and iterates through each node using the next pointers until a match is found or the end of the list is reached. This searching mechanism allows the player to check if a desired weapon or item exists in the linked list before performing certain actions.
 
 	- Load Previous Saved Progress:
-		- The saveWeapons() function is used in saving the player's previousprogress, including the weapons and items they have obtained. It ensures that the previously saved weapons are loaded and added back into the linked list, allowing the player to continue their gameplay from where they left off. By utilizing the linked list data structure, the saveWeapons function can efficiently rebuild the collection of weapons and items based on the saved data.
+		- The saveWeapons() function is used in saving the player's previous progress, including the weapons and items they have obtained. It ensures that the previously saved weapons are loaded and added back into the linked list, allowing the player to continue their gameplay from where they left off. By utilizing the linked list data structure, the saveWeapons function can efficiently rebuild the collection of weapons and items based on the saved data.
 
