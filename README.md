@@ -1,5 +1,8 @@
 # CPT113 Hackathon2-Group 50-
 
+## Game Demo Video
+Game Demo Video [CPT113 Hackathon 2 Group 50](https://drive.google.com/file/d/1skiNcixn87_Hm97hzH65q1uY2YRLNz4Y/view)
+
 ## Game Description
 "Welcome to 'Infinity Conquest: Rise of the Stones,' an epic text-based adventure where you embark on a thrilling journey to collect the legendary Mystic Stones and engage in fierce battles with mighty bosses that threaten the very fabric of existence.
 
@@ -166,7 +169,4 @@ Below is the methods on the implementation of linked list data structure in our 
 
 	- Load Previous Saved Progress:
 		- The saveWeapons() function is used in saving the player's previousprogress, including the weapons and items they have obtained. It ensures that the previously saved weapons are loaded and added back into the linked list, allowing the player to continue their gameplay from where they left off. By utilizing the linked list data structure, the saveWeapons function can efficiently rebuild the collection of weapons and items based on the saved data.
-
-## Game Demo Video
-Game Demo Video [CPT113 Hackathon 2 Group 50](https://drive.google.com/file/d/1skiNcixn87_Hm97hzH65q1uY2YRLNz4Y/view)
 
