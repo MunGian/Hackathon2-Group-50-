@@ -126,7 +126,7 @@ In our game, a few classes were used to organise the object used inside the game
 			- The resumeProgress() function in the Room class then passes the loaded weapon details explicitly to the WeaponList class using its member instance(declared as weapon in our code) of the WeaponList class.    
 			- This composition and passing of parameters allow the game to seamlessly resume the previous progress by initializing the necessary objects and their data.
      
-		 - The composition in the Room class.		
+		 - Some usage examples of composition in the Room class.		
 			- appendWeapons(weaponName) function is used to append weapons obtained by the player in the storyline. It utilizes the WeaponList class's appendWeapon function to add the weapon to the list of weapons.
 			- searchWeapon(weaponName) function is used to search for a specific weapon in the list of weapons. It utilizes the WeaponList class's searchWeapon function to check if the weapon exists in the list.
 			- displayHealthStatus() function is responsible for displaying the current health status of both the player and the boss. It utilizes the Health class's healthStatus function to obtain and display the health values.
