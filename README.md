@@ -129,7 +129,7 @@ In our game, a few classes were used to organise the object used inside the game
 		 - Some usage examples of composition in the Room class.		
 			- appendWeapons(weaponName) function is used to append weapons obtained by the player in the storyline. It utilizes the WeaponList class's appendWeapon function to add the weapon to the list of weapons.
 			- searchWeapon(weaponName) function is used to search for a specific weapon in the list of weapons. It utilizes the WeaponList class's searchWeapon function to check if the weapon exists in the list.
-			- displayHealthStatus() function is responsible for displaying the current health status of both the player and the boss. It utilizes the Health class's healthStatus function to obtain and display the health values.
+			- healthStatus() function is responsible for displaying the current health status of both the player and the boss. It utilizes the Health class's healthStatus function to obtain and display the health values.
 			- probabilityAction() function encompasses the logic for performing various battle actions between the player and the boss. It makes use of the Health instance in Room class to handle actions such as attacking, dodging, and calculating damage.
 
 	- Importances of composition and passing parameters between classes in our code:
