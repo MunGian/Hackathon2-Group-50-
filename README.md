@@ -141,7 +141,7 @@ In our game, a few classes were used to organise the object used inside the game
 	- Methods like appendWeapon(), deleteWeapon(), and displayWeapons() in WeaponList Class provide abstraction for weapon management.
  	- Methods like roomList(), bossRoomList(), bossRoomAction() in Room Class provide abstraction for storyline progressing.
 	- Methods like bossTakeDamage(), playerTakeDamage(), and healthStatus() in Health Class provide abstraction for managing health.
-	- Methods like roomList(), bossRoomList(), bossRoomAction() in Room Class provide abstraction for storyline progressing.
+	- Methods like roomList(), bossRoomList(), bossRoomAction() in Room Class provide abstraction for storyline progression.
 	- Methods like MainPage(), EnterRoom(), GameDeails() provide abstaction for initializing and understanding the game.
 
 ## Data Structures (Linked Lists)
